@@ -1,5 +1,5 @@
 {
  "acik": false,
  "kuru": true,
- "turler": {"bilanco": true, "temettu": true, "yeni_is": true}
+ "turler": {"bilanco": true, "temettu": true, "yeni_is": true, "geri_alim": true, "sermaye": true}
 }

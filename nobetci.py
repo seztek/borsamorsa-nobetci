@@ -2,7 +2,7 @@
 """borsamorsa.com nöbetçisi — KAP bildirim listesini 10 dakikada bir yoklar.
 
 Ne yapar: KAP'ın herkese açık bildirim listesinden son 3 günü sorar (tek istek), borsamorsa.com'da izlenen şirketlerin
-finansal rapor, kâr payı ve yeni iş ilişkisi bildirimlerini ayırır ve ilk kez gördüğü her bildirimi görülme saatiyle
+finansal rapor, kâr payı, yeni iş ilişkisi, pay geri alımı ve sermaye artırımı bildirimlerini ayırır ve ilk kez gördüğü her bildirimi görülme saatiyle
 durum/gorulen.json dosyasına yazar.
 
 Şimdilik KURU ÇALIŞMA: yalnız kayıt tutar; hiçbir şeyi yayınlamaz, başka bir işi başlatmaz (ayar.json "kuru": true).
@@ -13,7 +13,7 @@ KAP'a yük: çalıştırma başına 1 liste isteği (liste 2000 kayda dayanırsa
 
 Kullanım: python3 nobetci.py            çıkış 0 (yeni bildirim olsa da olmasa da) · 1 KAP yanıt vermedi ya da liste güvenilmez
 """
-import datetime, json, os, sys, time, urllib.error, urllib.request
+import datetime, json, os, re, sys, time, urllib.error, urllib.request
 from zoneinfo import ZoneInfo
 
 KOK = os.path.dirname(os.path.abspath(__file__))
@@ -33,7 +33,17 @@ TURLER = {
     "Kar Payı Dağıtım İşlemlerine İlişkin Bildirim": "temettu",
     "Kar Payı Avansı Ödemesi İşlemlerine İlişkin Bildirim": "temettu",
     "Yeni İş İlişkisi": "yeni_is",
+    "Payların Geri Alınmasına İlişkin Bildirim": "geri_alim",
 }
+# Sermaye artırımı bildirimlerinin başlığı tek değil; ana depodaki kap_temettu.SERMAYE_RE ile aynı desen
+SERMAYE_RE = re.compile(r"sermaye artırım|sermaye azaltım|bedelsiz|bedelli|rüçhan|pay mali hak kullanım|kayıtlı sermaye tavan|pay bölünme", re.I)
+TUM_TURLER = sorted(set(TURLER.values()) | {"sermaye"})
+
+
+def tur_bul(konu):
+    """Bildirim başlığı → iş türü ya da None."""
+    konu = (konu or "").strip()
+    return TURLER.get(konu) or ("sermaye" if SERMAYE_RE.search(konu) else None)
 
 
 def simdi():
@@ -121,7 +131,7 @@ def ilgili(L, kodlar, turler):
     """Bizim şirketlerimizin izlenen türdeki bildirimleri: {numara: kayıt}."""
     out = {}
     for x in L:
-        tur = TURLER.get((x.get("subject") or "").strip())
+        tur = tur_bul(x.get("subject"))
         if not tur or not turler.get(tur, True):
             continue
         kod = next((k for k in (x.get("stockCodes") or "").replace(" ", "").split(",") if k in kodlar), None)
@@ -178,12 +188,15 @@ def main():
         D = {"aciklama": "Nöbetçinin gördüğü bildirimler: KAP bildirim numarası → tür, şirket, KAP yayın saati, nöbetçinin ilk gördüğü saat",
              "bildirim": {}}
     G = D["bildirim"]
+    # Sonradan eklenen bir tür ilk turunda eldeki 3 günün bildirimlerini getirir; onlar da "önceden vardı" sayılır
+    bilinen = set(TUM_TURLER) if ilk else set(D.get("turler") or ["bilanco", "temettu", "yeni_is"])
+    yeni_tur = set(TUM_TURLER) - bilinen
     yeni = []
     for no, k in sorted(bulunan.items(), key=lambda t: t[1]["yayin"]):
         if no in G:
             continue
         # İlk çalıştırmada eldeki 3 günün bildirimleri "önceden vardı" diye işaretlenir (gecikme ölçümüne girmez)
-        k["gorulme"] = None if ilk else an.isoformat(timespec="seconds")
+        k["gorulme"] = None if (ilk or k["tur"] in yeni_tur) else an.isoformat(timespec="seconds")
         G[no] = k
         yeni.append((no, k))
     # Eski kayıtları at
@@ -200,7 +213,8 @@ def main():
             except ValueError:
                 pass
         print(f"  yeni: {no} {k['tur']} {k['kod']} (KAP {k['yayin']}){gecikme}")
-    if yeni or ilk:
+    if yeni or ilk or yeni_tur:
+        D["turler"] = TUM_TURLER
         D["guncelleme"] = an.isoformat(timespec="seconds")
         yaz(GORULEN, D)
     if not ayar.get("kuru", True):

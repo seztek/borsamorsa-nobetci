@@ -3,7 +3,7 @@
 [borsamorsa.com](https://borsamorsa.com) için KAP (Kamuyu Aydınlatma Platformu) bildirim listesini 10 dakikada bir yoklayan küçük bir görev.
 
 - KAP'ın herkese açık bildirim listesine çalıştırma başına tek istek gönderir.
-- Sitede izlenen şirketlerin finansal rapor, kâr payı ve yeni iş ilişkisi bildirimlerini ayırır.
+- Sitede izlenen şirketlerin finansal rapor, kâr payı, yeni iş ilişkisi, pay geri alımı ve sermaye artırımı bildirimlerini ayırır.
 - İlk kez gördüğü her bildirimi görülme saatiyle `durum/gorulen.json` dosyasına yazar.
 
 Şu an **kuru çalışma**: yalnız kayıt tutar; hiçbir şeyi yayınlamaz ve başka bir işi başlatmaz.
