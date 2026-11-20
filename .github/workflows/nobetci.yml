@@ -1,0 +1,40 @@
+name: Nobetci
+run-name: "Nobetci (${{ github.event_name == 'schedule' && 'yedek saat' || 'Cloudflare saati' }})"
+
+# Asıl saat: borsamorsa.com'un Cloudflare zamanlayıcısı 10 dakikada bir bu işi başlatır (workflow_dispatch).
+# Yedek: GitHub'ın kendi zamanlaması (gecikebilir). İkisi aynı ana denk gelirse sıraya girer, KAP'a aynı anda iki istek gitmez.
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "7,37 * * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: nobetci
+  cancel-in-progress: false
+
+jobs:
+  nobet:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    env:
+      TZ: Europe/Istanbul
+    steps:
+      - uses: actions/checkout@v4
+      - name: KAP listesini yokla
+        run: python3 nobetci.py
+      - name: Kaydı sakla
+        if: always()
+        run: |
+          git add -A durum kodlar.json
+          if git diff --cached --quiet; then echo "değişiklik yok"; exit 0; fi
+          git config user.name "borsamorsa-nobetci"
+          git config user.email "nobetci@users.noreply.github.com"
+          git commit -q -m "nöbet: $(date '+%d.%m %H:%M')"
+          for i in 1 2 3; do
+            git pull -q --rebase origin main && git push -q origin HEAD:main && exit 0
+            sleep 5
+          done
+          echo "::error::kayıt gönderilemedi"; exit 1
