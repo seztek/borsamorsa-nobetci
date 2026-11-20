@@ -1,0 +1,90 @@
+{
+"aciklama": "Nöbetçinin gördüğü bildirimler: KAP bildirim numarası → tür, şirket, KAP yayın saati, nöbetçinin ilk gördüğü saat",
+"bildirim": {
+"1700003": {
+"gorulme": null,
+"kod": "ARENA",
+"konu": "Finansal Rapor",
+"tur": "bilanco",
+"yayin": "2026-11-18T18:44:42+03:00"
+},
+"1700009": {
+"gorulme": null,
+"kod": "AYGAZ",
+"konu": "Kar Payı Dağıtım İşlemlerine İlişkin Bildirim",
+"tur": "temettu",
+"yayin": "2026-11-18T18:46:48+03:00"
+},
+"1700014": {
+"gorulme": null,
+"kod": "KRPLS",
+"konu": "Yeni İş İlişkisi",
+"tur": "yeni_is",
+"yayin": "2026-11-18T19:00:34+03:00"
+},
+"1700131": {
+"gorulme": null,
+"kod": "ONRYT",
+"konu": "Yeni İş İlişkisi",
+"tur": "yeni_is",
+"yayin": "2026-11-19T10:10:02+03:00"
+},
+"1700258": {
+"gorulme": null,
+"kod": "MEKAG",
+"konu": "Yeni İş İlişkisi",
+"tur": "yeni_is",
+"yayin": "2026-11-19T14:56:01+03:00"
+},
+"1700270": {
+"gorulme": null,
+"kod": "CANTE",
+"konu": "Kar Payı Dağıtım İşlemlerine İlişkin Bildirim",
+"tur": "temettu",
+"yayin": "2026-11-19T15:41:26+03:00"
+},
+"1700335": {
+"gorulme": null,
+"kod": "AVOD",
+"konu": "Kar Payı Dağıtım İşlemlerine İlişkin Bildirim",
+"tur": "temettu",
+"yayin": "2026-11-19T17:02:58+03:00"
+},
+"1700386": {
+"gorulme": null,
+"kod": "SAMAT",
+"konu": "Finansal Rapor",
+"tur": "bilanco",
+"yayin": "2026-11-19T18:17:12+03:00"
+},
+"1700449": {
+"gorulme": null,
+"kod": "USHOL",
+"konu": "Finansal Rapor",
+"tur": "bilanco",
+"yayin": "2026-11-19T22:53:07+03:00"
+},
+"1700450": {
+"gorulme": null,
+"kod": "MARTI",
+"konu": "Finansal Rapor",
+"tur": "bilanco",
+"yayin": "2026-11-19T23:01:06+03:00"
+},
+"1700485": {
+"gorulme": null,
+"kod": "ARDYZ",
+"konu": "Yeni İş İlişkisi",
+"tur": "yeni_is",
+"yayin": "2026-11-20T09:20:19+03:00"
+},
+"1700489": {
+"gorulme": null,
+"kod": "ONCSM",
+"konu": "Yeni İş İlişkisi",
+"tur": "yeni_is",
+"yayin": "2026-11-20T09:30:22+03:00"
+}
+},
+"guncelleme": "2026-11-20T12:43:15+03:00"
+}
