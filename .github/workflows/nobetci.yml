@@ -28,7 +28,8 @@ jobs:
       - name: Kaydı sakla
         if: always()
         run: |
-          git add -A durum kodlar.json
+          mkdir -p ham
+          git add -A durum kodlar.json ham
           if git diff --cached --quiet; then echo "değişiklik yok"; exit 0; fi
           git config user.name "borsamorsa-nobetci"
           git config user.email "nobetci@users.noreply.github.com"

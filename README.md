@@ -20,5 +20,6 @@
 | `ayar.json` | Açık/kapalı, kuru çalışma, izlenen türler |
 | `kodlar.json` | İzlenen şirket kodları (günde bir siteden yenilenir) |
 | `durum/gorulen.json` | Görülen bildirimler ve görülme saatleri |
+| `ham/geri_alim/` | Pay geri alım bildirimlerinin KAP'taki sayfaları (son 60 gün) |
 
 Bu depoda anahtar, parola ya da kişisel veri bulunmaz.

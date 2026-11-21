@@ -6,14 +6,16 @@ finansal rapor, kâr payı, yeni iş ilişkisi, pay geri alımı ve sermaye art�
 durum/gorulen.json dosyasına yazar.
 
 Şimdilik KURU ÇALIŞMA: yalnız kayıt tutar; hiçbir şeyi yayınlamaz, başka bir işi başlatmaz (ayar.json "kuru": true).
+Ek olarak pay geri alım bildirimlerinin sayfalarını ham/geri_alim/ altına indirir (ayar.json "sayfa"); ana depo günlük
+taramasında bu dosyaları okur. Çalıştırma başına en çok 8 sayfa, 10 saniye arayla.
 Amaç, nöbetçinin her bildirimi zamanında ve doğru gördüğünü günlük taramalarla karşılaştırarak kanıtlamak.
 
 Kapatma anahtarı: ayar.json içinde "acik": false → KAP'a hiç istek gitmez.
-KAP'a yük: çalıştırma başına 1 liste isteği (liste 2000 kayda dayanırsa gün gün, en çok 3 istek).
+KAP'a yük: çalıştırma başına 1 liste isteği (liste 2000 kayda dayanırsa gün gün, en çok 3 istek) + en çok 8 sayfa isteği.
 
 Kullanım: python3 nobetci.py            çıkış 0 (yeni bildirim olsa da olmasa da) · 1 KAP yanıt vermedi ya da liste güvenilmez
 """
-import datetime, json, os, re, sys, time, urllib.error, urllib.request
+import datetime, gzip, json, os, re, sys, time, urllib.error, urllib.request
 from zoneinfo import ZoneInfo
 
 KOK = os.path.dirname(os.path.abspath(__file__))
@@ -22,6 +24,16 @@ KODLAR = os.path.join(KOK, "kodlar.json")
 GORULEN = os.path.join(KOK, "durum", "gorulen.json")
 KAP = "https://kap.org.tr/tr/api/disclosure/members/byCriteria"
 SIRKETLER = "https://borsamorsa.com/data/sirketler.json"
+SAYFA = "https://www.kap.org.tr/tr/api/notification/export/excel/"   # bildirim sayfası (ana depodaki taramalarla aynı adres)
+HAM = os.path.join(KOK, "ham")
+# Sayfası da indirilen türler: tür → (dosya öneki, sayfada bulunması gereken metin). Ana depo bu dosyaları okur; burada
+# indirmek ana deponun sınırlı Actions dakikasını harcamaz. Bildirim biçiminde olmayan (bakım/hata) sayfa kaydedilmez.
+SAYFA_TUR = {"geri_alim": ("GE_", "Yönetim Kurulu Karar Tarihi".encode("utf-8"))}
+SAYFA_EN_COK = 8      # çalıştırma başına en çok sayfa (10 dakikada bir çalışır; gün boyu yayılır, KAP'a yük bindirmez)
+SAYFA_ARA = 10        # iki sayfa isteği arası bekleme (sn)
+SAYFA_DENEME = 6      # bir sayfa bu kadar turda alınamazsa bırakılır (günlükte uyarı)
+SAYFA_ZAMAN = 20      # tek sayfa isteğinde en çok bekleme (sn)
+SAYFA_BUTCE = 240     # bir turda sayfa indirmeye ayrılan toplam süre (sn); iş 8 dakikada kesilir
 UA = "Mozilla/5.0 (compatible; borsamorsa/1.0; +https://borsamorsa.com/hakkinda/)"
 IST = ZoneInfo("Europe/Istanbul")
 SINIR = 2000          # KAP tek sorguda en çok bu kadar kayıt döndürür
@@ -143,6 +155,71 @@ def ilgili(L, kodlar, turler):
     return out
 
 
+def sayfa_yolu(tur, no):
+    return os.path.join(HAM, tur, f"{SAYFA_TUR[tur][0]}{no}.html.gz")
+
+
+def sayfa_al(no):
+    """Bildirim sayfasının ham içeriği. 429'da beklemez (hata fırlatır); sonraki çalıştırma sürdürür."""
+    basliklar = {"User-Agent": UA, "Accept": "text/html, application/json, */*", "Accept-Language": "tr",
+                 "Origin": "https://kap.org.tr", "Referer": "https://kap.org.tr/tr/"}
+    with urllib.request.urlopen(urllib.request.Request(SAYFA + str(no), headers=basliklar), timeout=SAYFA_ZAMAN) as r:
+        return r.read()
+
+
+def sayfalari_indir(G, D, ayar):
+    """Kayıttaki bildirimlerden sayfası istenen türde olup dosyası olmayanları indirir (yeniden eskiye, en çok SAYFA_EN_COK).
+    İndirilen sayısı. Kayıttan düşen (60 günden eski) bildirimlerin dosyaları silinir."""
+    acik = ayar.get("sayfa") or {}
+    deneme = D.setdefault("sayfa_deneme", {})
+    kalan = sorted((no for no, k in G.items() if k.get("tur") in SAYFA_TUR and acik.get(k["tur"], False)
+                    and not os.path.exists(sayfa_yolu(k["tur"], no)) and deneme.get(no, 0) < SAYFA_DENEME), key=int, reverse=True)
+    n = 0
+    bitis = time.monotonic() + SAYFA_BUTCE
+    for i, no in enumerate(kalan[:SAYFA_EN_COK]):
+        tur = G[no]["tur"]
+        if i:
+            time.sleep(SAYFA_ARA)
+        if time.monotonic() > bitis:
+            print("  sayfa: süre bütçesi doldu; kalanlar sonraki tura")
+            break
+        try:
+            v = sayfa_al(no)
+        except urllib.error.HTTPError as e:
+            if e.code in (429, 503):
+                # KAP "yavaşla" diyor: beklemeden bırak, sonraki tur sürdürür (deneme sayılmaz)
+                print(f"  sayfa {no}: KAP {e.code}; sayfa indirme bu turda bırakıldı")
+                break
+            deneme[no] = deneme.get(no, 0) + 1
+            print(f"  sayfa {no}: KAP {e.code} (deneme {deneme[no]}/{SAYFA_DENEME})")
+            continue
+        except Exception as e:
+            deneme[no] = deneme.get(no, 0) + 1
+            print(f"  sayfa {no}: alınamadı ({str(e)[:80]})")
+            continue
+        if len(v) < 500 or SAYFA_TUR[tur][1] not in v:
+            deneme[no] = deneme.get(no, 0) + 1
+            print(f"  sayfa {no}: bildirim biçiminde değil ({len(v)} bayt); kaydedilmedi (deneme {deneme[no]}/{SAYFA_DENEME})")
+            continue
+        yol = sayfa_yolu(tur, no)
+        os.makedirs(os.path.dirname(yol), exist_ok=True)
+        with open(yol + ".yeni", "wb") as f:
+            f.write(gzip.compress(v, 6))
+        os.replace(yol + ".yeni", yol)
+        deneme.pop(no, None)
+        n += 1
+    for no in [no for no in deneme if no not in G]:
+        del deneme[no]
+    for tur, (onek, _) in SAYFA_TUR.items():
+        klasor = os.path.join(HAM, tur)
+        for ad in (os.listdir(klasor) if os.path.isdir(klasor) else []):
+            if ad.startswith(onek) and ad.endswith(".html.gz") and ad[len(onek):-8] not in G:
+                os.remove(os.path.join(klasor, ad))
+    if kalan:
+        print(f"sayfa: bekleyen {len(kalan)}, bu turda indirilen {n}")
+    return n
+
+
 def kodlari_yenile(ayar):
     """Şirket listesi günde bir kez siteden yenilenir (yeni eklenen şirketler için). Olmazsa eldeki liste kullanılır."""
     kayit = oku(KODLAR, [])
@@ -213,7 +290,9 @@ def main():
             except ValueError:
                 pass
         print(f"  yeni: {no} {k['tur']} {k['kod']} (KAP {k['yayin']}){gecikme}")
-    if yeni or ilk or yeni_tur:
+    onceki_deneme = json.dumps(D.get("sayfa_deneme") or {}, sort_keys=True)
+    sayfalari_indir(G, D, ayar)
+    if yeni or ilk or yeni_tur or json.dumps(D.get("sayfa_deneme") or {}, sort_keys=True) != onceki_deneme:
         D["turler"] = TUM_TURLER
         D["guncelleme"] = an.isoformat(timespec="seconds")
         yaz(GORULEN, D)
