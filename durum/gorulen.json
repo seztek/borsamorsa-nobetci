@@ -462,9 +462,16 @@
 "konu": "Payların Geri Alınmasına İlişkin Bildirim",
 "tur": "geri_alim",
 "yayin": "2026-11-23T23:08:30+03:00"
+},
+"1701593": {
+"gorulme": "2026-11-23T23:51:04+03:00",
+"kod": "KLYPV",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-23T23:43:19+03:00"
 }
 },
-"guncelleme": "2026-11-23T23:11:05+03:00",
+"guncelleme": "2026-11-23T23:51:04+03:00",
 "sayfa_deneme": {},
 "turler": [
 "bilanco",
