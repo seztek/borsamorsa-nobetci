@@ -84,7 +84,386 @@
 "konu": "Yeni İş İlişkisi",
 "tur": "yeni_is",
 "yayin": "2026-11-20T09:30:22+03:00"
+},
+"1700898": {
+"gorulme": null,
+"kod": "ATAKP",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-21T13:56:01+03:00"
+},
+"1700909": {
+"gorulme": null,
+"kod": "GENTS",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-23T08:56:57+03:00"
+},
+"1700924": {
+"gorulme": null,
+"kod": "OZYSR",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-23T09:17:36+03:00"
+},
+"1700925": {
+"gorulme": null,
+"kod": "AYES",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-23T09:20:32+03:00"
+},
+"1700926": {
+"gorulme": null,
+"kod": "ARDYZ",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-23T09:26:36+03:00"
+},
+"1700927": {
+"gorulme": null,
+"kod": "MNDRS",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-23T09:27:38+03:00"
+},
+"1700930": {
+"gorulme": null,
+"kod": "MEYSU",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-23T09:39:42+03:00"
+},
+"1700939": {
+"gorulme": null,
+"kod": "MCARD",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-23T09:52:56+03:00"
+},
+"1701037": {
+"gorulme": "2026-11-23T21:11:04+03:00",
+"kod": "DOFRB",
+"konu": "Yeni İş İlişkisi",
+"tur": "yeni_is",
+"yayin": "2026-11-23T11:04:52+03:00"
+},
+"1701274": {
+"gorulme": "2026-11-23T21:11:04+03:00",
+"kod": "OZYSR",
+"konu": "Yeni İş İlişkisi",
+"tur": "yeni_is",
+"yayin": "2026-11-23T15:18:14+03:00"
+},
+"1701289": {
+"gorulme": "2026-11-23T21:11:04+03:00",
+"kod": "BVSAN",
+"konu": "Kar Payı Dağıtım İşlemlerine İlişkin Bildirim",
+"tur": "temettu",
+"yayin": "2026-11-23T15:21:51+03:00"
+},
+"1701390": {
+"gorulme": "2026-11-23T21:11:04+03:00",
+"kod": "YIGIT",
+"konu": "Kar Payı Dağıtım İşlemlerine İlişkin Bildirim",
+"tur": "temettu",
+"yayin": "2026-11-23T17:00:10+03:00"
+},
+"1701392": {
+"gorulme": "2026-11-23T21:11:04+03:00",
+"kod": "CWENE",
+"konu": "Yeni İş İlişkisi",
+"tur": "yeni_is",
+"yayin": "2026-11-23T17:04:05+03:00"
+},
+"1701393": {
+"gorulme": "2026-11-23T21:11:04+03:00",
+"kod": "BETAE",
+"konu": "Yeni İş İlişkisi",
+"tur": "yeni_is",
+"yayin": "2026-11-23T17:08:21+03:00"
+},
+"1701466": {
+"gorulme": null,
+"kod": "MAGEN",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-23T18:11:34+03:00"
+},
+"1701469": {
+"gorulme": null,
+"kod": "BLUME",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-23T18:12:21+03:00"
+},
+"1701471": {
+"gorulme": null,
+"kod": "MERCN",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-23T18:13:24+03:00"
+},
+"1701479": {
+"gorulme": null,
+"kod": "BNTAS",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-23T18:16:18+03:00"
+},
+"1701481": {
+"gorulme": null,
+"kod": "UNLU",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-23T18:16:32+03:00"
+},
+"1701483": {
+"gorulme": null,
+"kod": "LXGYO",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-23T18:16:59+03:00"
+},
+"1701494": {
+"gorulme": null,
+"kod": "GEDIK",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-23T18:21:37+03:00"
+},
+"1701495": {
+"gorulme": null,
+"kod": "KPEKS",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-23T18:24:33+03:00"
+},
+"1701496": {
+"gorulme": null,
+"kod": "YYLGD",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-23T18:25:39+03:00"
+},
+"1701497": {
+"gorulme": null,
+"kod": "GRTHO",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-23T18:28:23+03:00"
+},
+"1701498": {
+"gorulme": null,
+"kod": "KTSKR",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-23T18:28:47+03:00"
+},
+"1701499": {
+"gorulme": null,
+"kod": "EUREN",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-23T18:29:01+03:00"
+},
+"1701501": {
+"gorulme": null,
+"kod": "PRKME",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-23T18:29:26+03:00"
+},
+"1701504": {
+"gorulme": null,
+"kod": "HOROZ",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-23T18:30:54+03:00"
+},
+"1701505": {
+"gorulme": null,
+"kod": "TURSG",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-23T18:31:13+03:00"
+},
+"1701535": {
+"gorulme": null,
+"kod": "GLYHO",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-23T18:32:53+03:00"
+},
+"1701539": {
+"gorulme": null,
+"kod": "CATES",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-23T18:41:37+03:00"
+},
+"1701541": {
+"gorulme": null,
+"kod": "VEYAS",
+"konu": "Sermaye Artırımından Elde Edilecek - Edilen Fonun Kullanımına İlişkin Rapor",
+"tur": "sermaye",
+"yayin": "2026-11-23T18:44:08+03:00"
+},
+"1701542": {
+"gorulme": null,
+"kod": "ENERY",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-23T18:46:13+03:00"
+},
+"1701543": {
+"gorulme": null,
+"kod": "AHGAZ",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-23T18:47:11+03:00"
+},
+"1701545": {
+"gorulme": null,
+"kod": "SANFM",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-23T18:53:21+03:00"
+},
+"1701546": {
+"gorulme": null,
+"kod": "BAHKM",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-23T18:54:39+03:00"
+},
+"1701547": {
+"gorulme": null,
+"kod": "KLSYN",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-23T18:59:01+03:00"
+},
+"1701548": {
+"gorulme": null,
+"kod": "SANKO",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-23T19:00:13+03:00"
+},
+"1701549": {
+"gorulme": null,
+"kod": "MAVI",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-23T19:00:21+03:00"
+},
+"1701551": {
+"gorulme": null,
+"kod": "ULUUN",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-23T19:03:19+03:00"
+},
+"1701555": {
+"gorulme": null,
+"kod": "BAHKM",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-23T19:09:32+03:00"
+},
+"1701556": {
+"gorulme": null,
+"kod": "TUREX",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-23T19:10:42+03:00"
+},
+"1701557": {
+"gorulme": null,
+"kod": "GARAN",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-23T19:11:18+03:00"
+},
+"1701558": {
+"gorulme": null,
+"kod": "SOKE",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-23T19:13:14+03:00"
+},
+"1701561": {
+"gorulme": null,
+"kod": "AKFIS",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-23T19:15:00+03:00"
+},
+"1701563": {
+"gorulme": null,
+"kod": "GUBRF",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-23T19:28:26+03:00"
+},
+"1701564": {
+"gorulme": null,
+"kod": "PCILT",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-23T19:29:27+03:00"
+},
+"1701565": {
+"gorulme": null,
+"kod": "OZGYO",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-23T19:32:14+03:00"
+},
+"1701568": {
+"gorulme": null,
+"kod": "PGSUS",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-23T19:46:23+03:00"
+},
+"1701571": {
+"gorulme": null,
+"kod": "EKIM",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-23T19:59:07+03:00"
+},
+"1701572": {
+"gorulme": null,
+"kod": "AYES",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-23T20:00:04+03:00"
+},
+"1701573": {
+"gorulme": null,
+"kod": "IHLAS",
+"konu": "Sermaye Artırımından Elde Edilecek - Edilen Fonun Kullanımına İlişkin Rapor",
+"tur": "sermaye",
+"yayin": "2026-11-23T20:00:06+03:00"
+},
+"1701580": {
+"gorulme": null,
+"kod": "KZGYO",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-23T20:29:13+03:00"
 }
 },
-"guncelleme": "2026-11-20T12:43:15+03:00"
+"guncelleme": "2026-11-23T21:11:04+03:00",
+"sayfa_deneme": {},
+"turler": [
+"bilanco",
+"geri_alim",
+"sermaye",
+"temettu",
+"yeni_is"
+]
 }
