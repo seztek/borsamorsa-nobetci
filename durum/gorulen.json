@@ -756,9 +756,16 @@
 "konu": "Payların Geri Alınmasına İlişkin Bildirim",
 "tur": "geri_alim",
 "yayin": "2026-11-24T20:25:35+03:00"
+},
+"1702118": {
+"gorulme": "2026-11-24T20:41:06+03:00",
+"kod": "EKIM",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-24T20:34:39+03:00"
 }
 },
-"guncelleme": "2026-11-24T20:31:04+03:00",
+"guncelleme": "2026-11-24T20:41:06+03:00",
 "sayfa_deneme": {},
 "turler": [
 "bilanco",
