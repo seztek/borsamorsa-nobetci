@@ -749,9 +749,16 @@
 "konu": "Payların Geri Alınmasına İlişkin Bildirim",
 "tur": "geri_alim",
 "yayin": "2026-11-24T20:18:23+03:00"
+},
+"1702117": {
+"gorulme": "2026-11-24T20:31:04+03:00",
+"kod": "SUNTK",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-24T20:25:35+03:00"
 }
 },
-"guncelleme": "2026-11-24T20:21:05+03:00",
+"guncelleme": "2026-11-24T20:31:04+03:00",
 "sayfa_deneme": {},
 "turler": [
 "bilanco",
