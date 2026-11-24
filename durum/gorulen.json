@@ -742,9 +742,16 @@
 "konu": "Payların Geri Alınmasına İlişkin Bildirim",
 "tur": "geri_alim",
 "yayin": "2026-11-24T20:10:12+03:00"
+},
+"1702116": {
+"gorulme": "2026-11-24T20:21:05+03:00",
+"kod": "CATES",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-24T20:18:23+03:00"
 }
 },
-"guncelleme": "2026-11-24T20:11:03+03:00",
+"guncelleme": "2026-11-24T20:21:05+03:00",
 "sayfa_deneme": {},
 "turler": [
 "bilanco",
