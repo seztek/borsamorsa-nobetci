@@ -777,9 +777,16 @@
 "konu": "Payların Geri Alınmasına İlişkin Bildirim",
 "tur": "geri_alim",
 "yayin": "2026-11-24T21:12:03+03:00"
+},
+"1702127": {
+"gorulme": "2026-11-24T21:31:09+03:00",
+"kod": "AKSGY",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-24T21:27:39+03:00"
 }
 },
-"guncelleme": "2026-11-24T21:21:04+03:00",
+"guncelleme": "2026-11-24T21:31:09+03:00",
 "sayfa_deneme": {},
 "turler": [
 "bilanco",
