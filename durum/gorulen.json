@@ -651,9 +651,51 @@
 "konu": "Payların Geri Alınmasına İlişkin Bildirim",
 "tur": "geri_alim",
 "yayin": "2026-11-24T18:48:07+03:00"
+},
+"1702087": {
+"gorulme": "2026-11-24T19:01:12+03:00",
+"kod": "DIRIT",
+"konu": "Sermaye Artırımı - Azaltımı İşlemlerine İlişkin Bildirim",
+"tur": "sermaye",
+"yayin": "2026-11-24T18:51:26+03:00"
+},
+"1702099": {
+"gorulme": "2026-11-24T19:01:12+03:00",
+"kod": "DIRIT",
+"konu": "Sermaye Artırımından Elde Edilecek - Edilen Fonun Kullanımına İlişkin Rapor",
+"tur": "sermaye",
+"yayin": "2026-11-24T18:51:42+03:00"
+},
+"1702100": {
+"gorulme": "2026-11-24T19:01:12+03:00",
+"kod": "ULUUN",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-24T18:52:53+03:00"
+},
+"1702102": {
+"gorulme": "2026-11-24T19:01:12+03:00",
+"kod": "IZENR",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-24T18:54:47+03:00"
+},
+"1702103": {
+"gorulme": "2026-11-24T19:01:12+03:00",
+"kod": "OBASE",
+"konu": "Kayıtlı Sermaye Tavanı İşlemlerine İlişkin Bildirim",
+"tur": "sermaye",
+"yayin": "2026-11-24T19:00:07+03:00"
+},
+"1702104": {
+"gorulme": "2026-11-24T19:01:12+03:00",
+"kod": "OZGYO",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-24T19:00:11+03:00"
 }
 },
-"guncelleme": "2026-11-24T18:51:06+03:00",
+"guncelleme": "2026-11-24T19:01:12+03:00",
 "sayfa_deneme": {},
 "turler": [
 "bilanco",
