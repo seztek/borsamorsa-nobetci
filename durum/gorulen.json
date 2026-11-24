@@ -791,9 +791,16 @@
 "konu": "Payların Geri Alınmasına İlişkin Bildirim",
 "tur": "geri_alim",
 "yayin": "2026-11-24T22:48:45+03:00"
+},
+"1702131": {
+"gorulme": "2026-11-24T23:01:03+03:00",
+"kod": "HOROZ",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-24T22:56:06+03:00"
 }
 },
-"guncelleme": "2026-11-24T22:51:04+03:00",
+"guncelleme": "2026-11-24T23:01:03+03:00",
 "sayfa_deneme": {},
 "turler": [
 "bilanco",
