@@ -728,9 +728,16 @@
 "konu": "Payların Geri Alınmasına İlişkin Bildirim",
 "tur": "geri_alim",
 "yayin": "2026-11-24T19:36:45+03:00"
+},
+"1702110": {
+"gorulme": "2026-11-24T19:51:05+03:00",
+"kod": "EKDMR",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-24T19:41:07+03:00"
 }
 },
-"guncelleme": "2026-11-24T19:41:06+03:00",
+"guncelleme": "2026-11-24T19:51:05+03:00",
 "sayfa_deneme": {},
 "turler": [
 "bilanco",
