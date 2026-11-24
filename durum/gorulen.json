@@ -805,9 +805,16 @@
 "konu": "Yeni İş İlişkisi",
 "tur": "yeni_is",
 "yayin": "2026-11-24T23:08:26+03:00"
+},
+"1702133": {
+"gorulme": "2026-11-24T23:41:03+03:00",
+"kod": "METEN",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-24T23:40:09+03:00"
 }
 },
-"guncelleme": "2026-11-24T23:11:03+03:00",
+"guncelleme": "2026-11-24T23:41:03+03:00",
 "sayfa_deneme": {},
 "turler": [
 "bilanco",
