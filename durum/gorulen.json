@@ -798,9 +798,16 @@
 "konu": "Payların Geri Alınmasına İlişkin Bildirim",
 "tur": "geri_alim",
 "yayin": "2026-11-24T22:56:06+03:00"
+},
+"1702132": {
+"gorulme": "2026-11-24T23:11:03+03:00",
+"kod": "CUSAN",
+"konu": "Yeni İş İlişkisi",
+"tur": "yeni_is",
+"yayin": "2026-11-24T23:08:26+03:00"
 }
 },
-"guncelleme": "2026-11-24T23:01:03+03:00",
+"guncelleme": "2026-11-24T23:11:03+03:00",
 "sayfa_deneme": {},
 "turler": [
 "bilanco",
