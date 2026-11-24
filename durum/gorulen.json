@@ -483,9 +483,16 @@
 "konu": "Payların Geri Alınmasına İlişkin Bildirim",
 "tur": "geri_alim",
 "yayin": "2026-11-24T08:48:37+03:00"
+},
+"1701640": {
+"gorulme": "2026-11-24T09:21:03+03:00",
+"kod": "BVSAN",
+"konu": "Kar Payı Dağıtım İşlemlerine İlişkin Bildirim",
+"tur": "temettu",
+"yayin": "2026-11-24T09:19:40+03:00"
 }
 },
-"guncelleme": "2026-11-24T08:51:02+03:00",
+"guncelleme": "2026-11-24T09:21:03+03:00",
 "sayfa_deneme": {},
 "turler": [
 "bilanco",
