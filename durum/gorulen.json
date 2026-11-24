@@ -721,9 +721,16 @@
 "konu": "Payların Geri Alınmasına İlişkin Bildirim",
 "tur": "geri_alim",
 "yayin": "2026-11-24T19:23:35+03:00"
+},
+"1702109": {
+"gorulme": "2026-11-24T19:41:06+03:00",
+"kod": "TURSG",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-24T19:36:45+03:00"
 }
 },
-"guncelleme": "2026-11-24T19:31:13+03:00",
+"guncelleme": "2026-11-24T19:41:06+03:00",
 "sayfa_deneme": {},
 "turler": [
 "bilanco",
