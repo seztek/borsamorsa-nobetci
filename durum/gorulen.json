@@ -532,9 +532,16 @@
 "konu": "Payların Geri Alınmasına İlişkin Bildirim",
 "tur": "geri_alim",
 "yayin": "2026-11-24T15:55:54+03:00"
+},
+"1701948": {
+"gorulme": "2026-11-24T16:31:05+03:00",
+"kod": "BLCYT",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-24T16:30:44+03:00"
 }
 },
-"guncelleme": "2026-11-24T16:01:04+03:00",
+"guncelleme": "2026-11-24T16:31:05+03:00",
 "sayfa_deneme": {},
 "turler": [
 "bilanco",
