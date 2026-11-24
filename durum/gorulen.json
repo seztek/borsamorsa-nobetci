@@ -630,9 +630,30 @@
 "konu": "Payların Geri Alınmasına İlişkin Bildirim",
 "tur": "geri_alim",
 "yayin": "2026-11-24T18:38:59+03:00"
+},
+"1702080": {
+"gorulme": "2026-11-24T18:51:06+03:00",
+"kod": "QUICK",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-24T18:44:37+03:00"
+},
+"1702081": {
+"gorulme": "2026-11-24T18:51:06+03:00",
+"kod": "ATSYH",
+"konu": "Finansal Rapor",
+"tur": "bilanco",
+"yayin": "2026-11-24T18:44:54+03:00"
+},
+"1702086": {
+"gorulme": "2026-11-24T18:51:06+03:00",
+"kod": "LKMNH",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-24T18:48:07+03:00"
 }
 },
-"guncelleme": "2026-11-24T18:41:05+03:00",
+"guncelleme": "2026-11-24T18:51:06+03:00",
 "sayfa_deneme": {},
 "turler": [
 "bilanco",
