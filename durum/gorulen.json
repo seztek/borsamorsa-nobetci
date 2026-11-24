@@ -504,9 +504,16 @@
 "konu": "Payların Geri Alınmasına İlişkin Bildirim",
 "tur": "geri_alim",
 "yayin": "2026-11-24T14:38:26+03:00"
+},
+"1701827": {
+"gorulme": "2026-11-24T15:01:03+03:00",
+"kod": "KAREL",
+"konu": "Yeni İş İlişkisi",
+"tur": "yeni_is",
+"yayin": "2026-11-24T14:59:39+03:00"
 }
 },
-"guncelleme": "2026-11-24T14:41:08+03:00",
+"guncelleme": "2026-11-24T15:01:03+03:00",
 "sayfa_deneme": {},
 "turler": [
 "bilanco",
