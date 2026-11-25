@@ -1001,9 +1001,30 @@
 "konu": "Payların Geri Alınmasına İlişkin Bildirim",
 "tur": "geri_alim",
 "yayin": "2026-11-25T18:30:18+03:00"
+},
+"1702703": {
+"gorulme": "2026-11-25T18:41:03+03:00",
+"kod": "MARBL",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-25T18:31:10+03:00"
+},
+"1702704": {
+"gorulme": "2026-11-25T18:41:03+03:00",
+"kod": "ENERY",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-25T18:31:49+03:00"
+},
+"1702709": {
+"gorulme": "2026-11-25T18:41:03+03:00",
+"kod": "PCILT",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-25T18:36:17+03:00"
 }
 },
-"guncelleme": "2026-11-25T18:31:04+03:00",
+"guncelleme": "2026-11-25T18:41:03+03:00",
 "sayfa_deneme": {},
 "turler": [
 "bilanco",
