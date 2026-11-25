@@ -833,9 +833,23 @@
 "konu": "Payların Geri Alınmasına İlişkin Bildirim",
 "tur": "geri_alim",
 "yayin": "2026-11-25T08:57:05+03:00"
+},
+"1702233": {
+"gorulme": "2026-11-25T10:51:03+03:00",
+"kod": "BETAE",
+"konu": "Yeni İş İlişkisi",
+"tur": "yeni_is",
+"yayin": "2026-11-25T10:44:05+03:00"
+},
+"1702240": {
+"gorulme": "2026-11-25T10:51:03+03:00",
+"kod": "TURSG",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-25T10:45:48+03:00"
 }
 },
-"guncelleme": "2026-11-25T09:01:04+03:00",
+"guncelleme": "2026-11-25T10:51:03+03:00",
 "sayfa_deneme": {},
 "turler": [
 "bilanco",
