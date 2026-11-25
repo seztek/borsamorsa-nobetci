@@ -847,9 +847,16 @@
 "konu": "Payların Geri Alınmasına İlişkin Bildirim",
 "tur": "geri_alim",
 "yayin": "2026-11-25T10:45:48+03:00"
+},
+"1702280": {
+"gorulme": "2026-11-25T11:51:05+03:00",
+"kod": "KATMR",
+"konu": "Yeni İş İlişkisi",
+"tur": "yeni_is",
+"yayin": "2026-11-25T11:48:16+03:00"
 }
 },
-"guncelleme": "2026-11-25T10:51:03+03:00",
+"guncelleme": "2026-11-25T11:51:05+03:00",
 "sayfa_deneme": {},
 "turler": [
 "bilanco",
