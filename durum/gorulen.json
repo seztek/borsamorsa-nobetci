@@ -812,9 +812,16 @@
 "konu": "Payların Geri Alınmasına İlişkin Bildirim",
 "tur": "geri_alim",
 "yayin": "2026-11-24T23:40:09+03:00"
+},
+"1702135": {
+"gorulme": "2026-11-25T08:21:02+03:00",
+"kod": "AZTEK",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-25T08:14:45+03:00"
 }
 },
-"guncelleme": "2026-11-24T23:41:03+03:00",
+"guncelleme": "2026-11-25T08:21:02+03:00",
 "sayfa_deneme": {},
 "turler": [
 "bilanco",
