@@ -1085,9 +1085,16 @@
 "konu": "Payların Geri Alınmasına İlişkin Bildirim",
 "tur": "geri_alim",
 "yayin": "2026-11-25T19:19:44+03:00"
+},
+"1702737": {
+"gorulme": "2026-11-25T19:41:03+03:00",
+"kod": "GUBRF",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-25T19:32:00+03:00"
 }
 },
-"guncelleme": "2026-11-25T19:21:03+03:00",
+"guncelleme": "2026-11-25T19:41:03+03:00",
 "sayfa_deneme": {},
 "turler": [
 "bilanco",
