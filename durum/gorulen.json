@@ -1071,9 +1071,23 @@
 "konu": "Payların Geri Alınmasına İlişkin Bildirim",
 "tur": "geri_alim",
 "yayin": "2026-11-25T19:09:27+03:00"
+},
+"1702735": {
+"gorulme": "2026-11-25T19:21:03+03:00",
+"kod": "NETCD",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-25T19:18:39+03:00"
+},
+"1702736": {
+"gorulme": "2026-11-25T19:21:03+03:00",
+"kod": "TURSG",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-25T19:19:44+03:00"
 }
 },
-"guncelleme": "2026-11-25T19:11:08+03:00",
+"guncelleme": "2026-11-25T19:21:03+03:00",
 "sayfa_deneme": {},
 "turler": [
 "bilanco",
