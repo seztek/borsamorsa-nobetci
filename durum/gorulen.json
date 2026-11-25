@@ -875,9 +875,86 @@
 "konu": "Kar Payı Dağıtım İşlemlerine İlişkin Bildirim",
 "tur": "temettu",
 "yayin": "2026-11-25T18:04:24+03:00"
+},
+"1702659": {
+"gorulme": "2026-11-25T18:21:05+03:00",
+"kod": "DIRIT",
+"konu": "Sermaye Artırımı - Azaltımı İşlemlerine İlişkin Bildirim",
+"tur": "sermaye",
+"yayin": "2026-11-25T18:11:24+03:00"
+},
+"1702664": {
+"gorulme": "2026-11-25T18:21:05+03:00",
+"kod": "MERCN",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-25T18:12:48+03:00"
+},
+"1702665": {
+"gorulme": "2026-11-25T18:21:05+03:00",
+"kod": "EUREN",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-25T18:13:34+03:00"
+},
+"1702669": {
+"gorulme": "2026-11-25T18:21:05+03:00",
+"kod": "BNTAS",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-25T18:15:02+03:00"
+},
+"1702674": {
+"gorulme": "2026-11-25T18:21:05+03:00",
+"kod": "LXGYO",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-25T18:16:55+03:00"
+},
+"1702675": {
+"gorulme": "2026-11-25T18:21:05+03:00",
+"kod": "KZGYO",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-25T18:18:07+03:00"
+},
+"1702679": {
+"gorulme": "2026-11-25T18:21:05+03:00",
+"kod": "MAVI",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-25T18:18:29+03:00"
+},
+"1702681": {
+"gorulme": "2026-11-25T18:21:05+03:00",
+"kod": "YYLGD",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-25T18:18:54+03:00"
+},
+"1702684": {
+"gorulme": "2026-11-25T18:21:05+03:00",
+"kod": "TCKRC",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-25T18:19:17+03:00"
+},
+"1702685": {
+"gorulme": "2026-11-25T18:21:05+03:00",
+"kod": "LYDYE",
+"konu": "Sermaye Artırımı - Azaltımı İşlemlerine İlişkin Bildirim",
+"tur": "sermaye",
+"yayin": "2026-11-25T18:19:52+03:00"
+},
+"1702688": {
+"gorulme": "2026-11-25T18:21:05+03:00",
+"kod": "MASFN",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-25T18:21:01+03:00"
 }
 },
-"guncelleme": "2026-11-25T18:11:03+03:00",
+"guncelleme": "2026-11-25T18:21:05+03:00",
 "sayfa_deneme": {},
 "turler": [
 "bilanco",
