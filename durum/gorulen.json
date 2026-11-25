@@ -1176,9 +1176,16 @@
 "konu": "Kayıtlı Sermaye Tavanı İşlemlerine İlişkin Bildirim",
 "tur": "sermaye",
 "yayin": "2026-11-25T23:17:17+03:00"
+},
+"1702819": {
+"gorulme": "2026-11-25T23:51:03+03:00",
+"kod": "AYES",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-25T23:45:03+03:00"
 }
 },
-"guncelleme": "2026-11-25T23:21:03+03:00",
+"guncelleme": "2026-11-25T23:51:03+03:00",
 "sayfa_deneme": {},
 "turler": [
 "bilanco",
