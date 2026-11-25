@@ -1092,9 +1092,30 @@
 "konu": "Payların Geri Alınmasına İlişkin Bildirim",
 "tur": "geri_alim",
 "yayin": "2026-11-25T19:32:00+03:00"
+},
+"1702741": {
+"gorulme": "2026-11-25T19:51:03+03:00",
+"kod": "ATATP",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-25T19:42:01+03:00"
+},
+"1702745": {
+"gorulme": "2026-11-25T19:51:03+03:00",
+"kod": "DAGI",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-25T19:45:57+03:00"
+},
+"1702746": {
+"gorulme": "2026-11-25T19:51:03+03:00",
+"kod": "BORSK",
+"konu": "Kar Payı Dağıtım İşlemlerine İlişkin Bildirim",
+"tur": "temettu",
+"yayin": "2026-11-25T19:46:41+03:00"
 }
 },
-"guncelleme": "2026-11-25T19:41:03+03:00",
+"guncelleme": "2026-11-25T19:51:03+03:00",
 "sayfa_deneme": {},
 "turler": [
 "bilanco",
