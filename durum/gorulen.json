@@ -1267,9 +1267,44 @@
 "konu": "Payların Geri Alınmasına İlişkin Bildirim",
 "tur": "geri_alim",
 "yayin": "2026-11-26T18:14:31+03:00"
+},
+"1703067": {
+"gorulme": "2026-11-26T18:31:04+03:00",
+"kod": "GEDIK",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-26T18:21:24+03:00"
+},
+"1703068": {
+"gorulme": "2026-11-26T18:31:04+03:00",
+"kod": "ARSAN",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-26T18:22:25+03:00"
+},
+"1703070": {
+"gorulme": "2026-11-26T18:31:04+03:00",
+"kod": "SANKO",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-26T18:24:57+03:00"
+},
+"1703072": {
+"gorulme": "2026-11-26T18:31:04+03:00",
+"kod": "AHGAZ",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-26T18:30:07+03:00"
+},
+"1703073": {
+"gorulme": "2026-11-26T18:31:04+03:00",
+"kod": "ENERY",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-26T18:30:22+03:00"
 }
 },
-"guncelleme": "2026-11-26T18:21:04+03:00",
+"guncelleme": "2026-11-26T18:31:04+03:00",
 "sayfa_deneme": {},
 "turler": [
 "bilanco",
