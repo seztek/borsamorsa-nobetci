@@ -1302,9 +1302,23 @@
 "konu": "Payların Geri Alınmasına İlişkin Bildirim",
 "tur": "geri_alim",
 "yayin": "2026-11-26T18:30:22+03:00"
+},
+"1703078": {
+"gorulme": "2026-11-26T18:41:03+03:00",
+"kod": "PCILT",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-26T18:35:40+03:00"
+},
+"1703080": {
+"gorulme": "2026-11-26T18:41:03+03:00",
+"kod": "KRSTL",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-26T18:37:26+03:00"
 }
 },
-"guncelleme": "2026-11-26T18:31:04+03:00",
+"guncelleme": "2026-11-26T18:41:03+03:00",
 "sayfa_deneme": {},
 "turler": [
 "bilanco",
