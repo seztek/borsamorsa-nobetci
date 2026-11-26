@@ -1218,9 +1218,16 @@
 "konu": "Payların Geri Alınmasına İlişkin Bildirim",
 "tur": "geri_alim",
 "yayin": "2026-11-26T09:26:34+03:00"
+},
+"1702911": {
+"gorulme": "2026-11-26T11:51:03+03:00",
+"kod": "GESAN",
+"konu": "Yeni İş İlişkisi",
+"tur": "yeni_is",
+"yayin": "2026-11-26T11:49:48+03:00"
 }
 },
-"guncelleme": "2026-11-26T09:31:07+03:00",
+"guncelleme": "2026-11-26T11:51:03+03:00",
 "sayfa_deneme": {},
 "turler": [
 "bilanco",
