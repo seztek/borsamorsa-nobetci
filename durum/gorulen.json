@@ -1239,9 +1239,37 @@
 "konu": "Yeni İş İlişkisi",
 "tur": "yeni_is",
 "yayin": "2026-11-26T17:56:13+03:00"
+},
+"1703050": {
+"gorulme": "2026-11-26T18:21:04+03:00",
+"kod": "TABGD",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-26T18:11:43+03:00"
+},
+"1703051": {
+"gorulme": "2026-11-26T18:21:04+03:00",
+"kod": "MERCN",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-26T18:12:26+03:00"
+},
+"1703052": {
+"gorulme": "2026-11-26T18:21:04+03:00",
+"kod": "BNTAS",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-26T18:12:57+03:00"
+},
+"1703054": {
+"gorulme": "2026-11-26T18:21:04+03:00",
+"kod": "EUREN",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-26T18:14:31+03:00"
 }
 },
-"guncelleme": "2026-11-26T18:01:03+03:00",
+"guncelleme": "2026-11-26T18:21:04+03:00",
 "sayfa_deneme": {},
 "turler": [
 "bilanco",
