@@ -1372,9 +1372,30 @@
 "konu": "Payların Geri Alınmasına İlişkin Bildirim",
 "tur": "geri_alim",
 "yayin": "2026-11-26T19:50:09+03:00"
+},
+"1703095": {
+"gorulme": "2026-11-26T20:01:07+03:00",
+"kod": "LMKDC",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-26T19:55:09+03:00"
+},
+"1703096": {
+"gorulme": "2026-11-26T20:01:07+03:00",
+"kod": "METEN",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-26T19:55:29+03:00"
+},
+"1703097": {
+"gorulme": "2026-11-26T20:01:07+03:00",
+"kod": "MERKO",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-26T19:59:05+03:00"
 }
 },
-"guncelleme": "2026-11-26T19:51:03+03:00",
+"guncelleme": "2026-11-26T20:01:07+03:00",
 "sayfa_deneme": {},
 "turler": [
 "bilanco",
