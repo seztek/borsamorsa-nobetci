@@ -1330,9 +1330,16 @@
 "konu": "Payların Geri Alınmasına İlişkin Bildirim",
 "tur": "geri_alim",
 "yayin": "2026-11-26T18:51:04+03:00"
+},
+"1703084": {
+"gorulme": "2026-11-26T19:01:03+03:00",
+"kod": "SOKE",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-26T18:55:25+03:00"
 }
 },
-"guncelleme": "2026-11-26T18:51:04+03:00",
+"guncelleme": "2026-11-26T19:01:03+03:00",
 "sayfa_deneme": {},
 "turler": [
 "bilanco",
