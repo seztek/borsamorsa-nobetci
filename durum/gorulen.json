@@ -1617,9 +1617,23 @@
 "konu": "Payların Geri Alınmasına İlişkin Bildirim",
 "tur": "geri_alim",
 "yayin": "2026-11-27T18:44:13+03:00"
+},
+"1703436": {
+"gorulme": "2026-11-27T19:01:03+03:00",
+"kod": "ULUUN",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-27T18:55:36+03:00"
+},
+"1703439": {
+"gorulme": "2026-11-27T19:01:03+03:00",
+"kod": "SOKE",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-27T18:58:56+03:00"
 }
 },
-"guncelleme": "2026-11-27T18:51:06+03:00",
+"guncelleme": "2026-11-27T19:01:03+03:00",
 "sayfa_deneme": {},
 "turler": [
 "bilanco",
