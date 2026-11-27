@@ -1498,9 +1498,37 @@
 "konu": "Payların Geri Alınmasına İlişkin Bildirim",
 "tur": "geri_alim",
 "yayin": "2026-11-27T18:07:23+03:00"
+},
+"1703381": {
+"gorulme": "2026-11-27T18:21:04+03:00",
+"kod": "BNTAS",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-27T18:11:33+03:00"
+},
+"1703382": {
+"gorulme": "2026-11-27T18:21:04+03:00",
+"kod": "UNLU",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-27T18:12:18+03:00"
+},
+"1703401": {
+"gorulme": "2026-11-27T18:21:04+03:00",
+"kod": "RNPOL",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-27T18:20:08+03:00"
+},
+"1703402": {
+"gorulme": "2026-11-27T18:21:04+03:00",
+"kod": "SANKO",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-27T18:20:23+03:00"
 }
 },
-"guncelleme": "2026-11-27T18:11:04+03:00",
+"guncelleme": "2026-11-27T18:21:04+03:00",
 "sayfa_deneme": {},
 "turler": [
 "bilanco",
