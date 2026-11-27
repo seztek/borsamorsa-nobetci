@@ -1526,9 +1526,65 @@
 "konu": "Payların Geri Alınmasına İlişkin Bildirim",
 "tur": "geri_alim",
 "yayin": "2026-11-27T18:20:23+03:00"
+},
+"1703404": {
+"gorulme": "2026-11-27T18:31:03+03:00",
+"kod": "BVSAN",
+"konu": "Yeni İş İlişkisi",
+"tur": "yeni_is",
+"yayin": "2026-11-27T18:21:57+03:00"
+},
+"1703406": {
+"gorulme": "2026-11-27T18:31:03+03:00",
+"kod": "KRSTL",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-27T18:22:05+03:00"
+},
+"1703407": {
+"gorulme": "2026-11-27T18:31:03+03:00",
+"kod": "LMKDC",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-27T18:22:38+03:00"
+},
+"1703410": {
+"gorulme": "2026-11-27T18:31:03+03:00",
+"kod": "ARSAN",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-27T18:24:54+03:00"
+},
+"1703411": {
+"gorulme": "2026-11-27T18:31:03+03:00",
+"kod": "PCILT",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-27T18:25:18+03:00"
+},
+"1703412": {
+"gorulme": "2026-11-27T18:31:03+03:00",
+"kod": "SANFM",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-27T18:26:01+03:00"
+},
+"1703418": {
+"gorulme": "2026-11-27T18:31:03+03:00",
+"kod": "AHGAZ",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-27T18:30:11+03:00"
+},
+"1703420": {
+"gorulme": "2026-11-27T18:31:03+03:00",
+"kod": "GLYHO",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-27T18:30:52+03:00"
 }
 },
-"guncelleme": "2026-11-27T18:21:04+03:00",
+"guncelleme": "2026-11-27T18:31:03+03:00",
 "sayfa_deneme": {},
 "turler": [
 "bilanco",
