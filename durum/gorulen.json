@@ -1456,9 +1456,16 @@
 "konu": "Payların Geri Alınmasına İlişkin Bildirim",
 "tur": "geri_alim",
 "yayin": "2026-11-27T09:16:10+03:00"
+},
+"1703250": {
+"gorulme": "2026-11-27T11:51:02+03:00",
+"kod": "LUKSK",
+"konu": "Kayıtlı Sermaye Tavanı İşlemlerine İlişkin Bildirim",
+"tur": "sermaye",
+"yayin": "2026-11-27T11:42:58+03:00"
 }
 },
-"guncelleme": "2026-11-27T09:21:03+03:00",
+"guncelleme": "2026-11-27T11:51:02+03:00",
 "sayfa_deneme": {},
 "turler": [
 "bilanco",
