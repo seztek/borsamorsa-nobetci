@@ -1631,9 +1631,30 @@
 "konu": "Payların Geri Alınmasına İlişkin Bildirim",
 "tur": "geri_alim",
 "yayin": "2026-11-27T18:58:56+03:00"
+},
+"1703445": {
+"gorulme": "2026-11-27T19:31:08+03:00",
+"kod": "GARAN",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-27T19:24:58+03:00"
+},
+"1703446": {
+"gorulme": "2026-11-27T19:31:08+03:00",
+"kod": "AYES",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-27T19:27:02+03:00"
+},
+"1703447": {
+"gorulme": "2026-11-27T19:31:08+03:00",
+"kod": "EFOR",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-27T19:30:26+03:00"
 }
 },
-"guncelleme": "2026-11-27T19:01:03+03:00",
+"guncelleme": "2026-11-27T19:31:08+03:00",
 "sayfa_deneme": {},
 "turler": [
 "bilanco",
