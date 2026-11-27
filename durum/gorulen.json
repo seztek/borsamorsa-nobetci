@@ -1435,9 +1435,16 @@
 "konu": "Payların Geri Alınmasına İlişkin Bildirim",
 "tur": "geri_alim",
 "yayin": "2026-11-27T08:47:08+03:00"
+},
+"1703115": {
+"gorulme": "2026-11-27T09:11:04+03:00",
+"kod": "ARDYZ",
+"konu": "Yeni İş İlişkisi",
+"tur": "yeni_is",
+"yayin": "2026-11-27T09:01:48+03:00"
 }
 },
-"guncelleme": "2026-11-27T08:51:03+03:00",
+"guncelleme": "2026-11-27T09:11:04+03:00",
 "sayfa_deneme": {},
 "turler": [
 "bilanco",
