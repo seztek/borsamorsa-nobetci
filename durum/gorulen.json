@@ -1477,9 +1477,23 @@
 "konu": "Sermaye Artırımı - Azaltımı İşlemlerine İlişkin Bildirim",
 "tur": "sermaye",
 "yayin": "2026-11-27T15:03:53+03:00"
+},
+"1703315": {
+"gorulme": "2026-11-27T15:41:03+03:00",
+"kod": "FENER",
+"konu": "Kar Payı Dağıtım İşlemlerine İlişkin Bildirim",
+"tur": "temettu",
+"yayin": "2026-11-27T15:31:36+03:00"
+},
+"1703316": {
+"gorulme": "2026-11-27T15:41:03+03:00",
+"kod": "PKART",
+"konu": "Sermaye Artırımı - Azaltımı İşlemlerine İlişkin Bildirim",
+"tur": "sermaye",
+"yayin": "2026-11-27T15:32:36+03:00"
 }
 },
-"guncelleme": "2026-11-27T15:11:03+03:00",
+"guncelleme": "2026-11-27T15:41:03+03:00",
 "sayfa_deneme": {},
 "turler": [
 "bilanco",
