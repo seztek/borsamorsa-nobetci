@@ -1582,9 +1582,30 @@
 "konu": "Payların Geri Alınmasına İlişkin Bildirim",
 "tur": "geri_alim",
 "yayin": "2026-11-27T18:30:52+03:00"
+},
+"1703423": {
+"gorulme": "2026-11-27T18:41:04+03:00",
+"kod": "GEDIK",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-27T18:31:13+03:00"
+},
+"1703425": {
+"gorulme": "2026-11-27T18:41:04+03:00",
+"kod": "QUICK",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-27T18:33:55+03:00"
+},
+"1703428": {
+"gorulme": "2026-11-27T18:41:04+03:00",
+"kod": "ALBTN",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-27T18:36:16+03:00"
 }
 },
-"guncelleme": "2026-11-27T18:31:03+03:00",
+"guncelleme": "2026-11-27T18:41:04+03:00",
 "sayfa_deneme": {},
 "turler": [
 "bilanco",
