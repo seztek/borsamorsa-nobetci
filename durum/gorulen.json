@@ -1687,9 +1687,16 @@
 "konu": "Payların Geri Alınmasına İlişkin Bildirim",
 "tur": "geri_alim",
 "yayin": "2026-11-27T22:27:41+03:00"
+},
+"1703469": {
+"gorulme": "2026-11-27T23:16:49+03:00",
+"kod": "AKHAN",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-27T23:11:13+03:00"
 }
 },
-"guncelleme": "2026-11-27T22:31:03+03:00",
+"guncelleme": "2026-11-27T23:16:49+03:00",
 "sayfa_deneme": {},
 "turler": [
 "bilanco",
