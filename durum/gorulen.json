@@ -1666,9 +1666,16 @@
 "konu": "Sermaye Artırımından Elde Edilecek - Edilen Fonun Kullanımına İlişkin Rapor",
 "tur": "sermaye",
 "yayin": "2026-11-27T20:01:41+03:00"
+},
+"1703462": {
+"gorulme": "2026-11-27T21:11:03+03:00",
+"kod": "PGSUS",
+"konu": "Payların Geri Alınmasına İlişkin Bildirim",
+"tur": "geri_alim",
+"yayin": "2026-11-27T21:10:29+03:00"
 }
 },
-"guncelleme": "2026-11-27T20:11:02+03:00",
+"guncelleme": "2026-11-27T21:11:03+03:00",
 "sayfa_deneme": {},
 "turler": [
 "bilanco",
